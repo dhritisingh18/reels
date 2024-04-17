@@ -1,0 +1,16 @@
+.upload-video-container{
+    margin-top : 24%;
+    margin-bottom: 6%;
+    margin-left: 24%;
+ }
+
+@media only screen  and (max-width:620px){
+
+    .upload-video-container{
+        margin-left: 0%;
+        margin-top : 20%;
+        margin-bottom: 6%;
+        width: 40%;
+     }
+    
+}

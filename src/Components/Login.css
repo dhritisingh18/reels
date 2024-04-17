@@ -1,0 +1,78 @@
+.loginWrapper{
+    display: flex;
+    justify-content: center;
+}
+.loginCard{
+    margin-top: 5%;
+    width: 27vw;
+}
+
+.loginCard2{
+    margin-top: 15%;
+    width: 28vw;
+    margin-left: 1%;
+}
+.insta-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.insta-logo img{
+    width: 15vw;
+}
+
+.imgcar{
+    height: 590px;
+    width: 441px;
+    margin-top: 8vh;
+    position: relative;
+}
+
+.car{
+    position: absolute;
+    height: 423px;
+    width: 241px;
+    margin-top: 8vh;
+    left: 143px;
+    top: 35px; 
+}
+
+
+@media only screen  and (max-width:750px){
+    .loginWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+   .loginCard{
+    width:40%;
+    opacity: 0.4;
+    animation: fadeInAnimation 1s ease forwards; 
+   }
+   .loginCard car{
+    width:50%,
+   }
+   .loginCard2{
+    width: 70%;
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    height: 100%;
+   }
+    
+   #sign-in-button{
+    margin-top: 0%;
+    align-items: start;
+    padding: 0%;
+    height: 7vh;
+   }
+
+   #sign-in-frame{
+    margin-top: 0%;
+   }
+}
+
